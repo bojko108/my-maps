@@ -1,0 +1,44 @@
+{
+    "map": {
+        "flashOnClick": true,
+        "view": {
+            "zoomLevel": 8,
+            "latitude": 42.59637585227141,
+            "longitude": 25.554359277740794
+        }
+    },
+    "layers": {
+        "basemaps": [
+            {
+                "name": "osm",
+                "title": "OpenStreetMap"
+            },
+            {
+                "name": "bing_aerial",
+                "title": "Bing Aerial",
+                "icon": "https://blogs.bing.com/app_themes/bingblogs/images/favicon.ico",
+                "visible": false
+            }
+        ]
+    },
+    "widgets": {
+        "userLocation": {
+            "flash": {
+                "red": 48,
+                "green": 144,
+                "blue": 199
+            },
+            "style": {
+                "circle": {
+                    "fillColor": "#2B65EC",
+                    "strokeColor": "#0000A0",
+                    "radius": 8,
+                    "strokeWidth": 3
+                }
+            }
+        },
+        "layerSwitcher": {
+            "createControl": true
+        }
+    }
+}
