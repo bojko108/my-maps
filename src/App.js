@@ -16,7 +16,7 @@ export default {
 
     },
     mounted() {
-        setTimeout(() => { this.ugis.mapp.map.updateSize(); }, 1);
+        setTimeout(() => { this.ugis.mapp.map.updateSize(); }, 500);
 
         document.addEventListener("deviceready", onDeviceReady, false);
         function onDeviceReady() {

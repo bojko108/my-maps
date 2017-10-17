@@ -35,7 +35,7 @@ ol.geom.LineString.prototype.splitAt = function (pt, tol) {
         return [this];
     }
     let c0 = this.getCoordinates();
-    let ci = [c0[0]], p0, p1;
+    let ci = [c0[0]];
     let c = [];
     for (let i = 0; i < c0.length - 1; i++) {
         if (ol.coordinate.equal(c0[i], c0[i + 1])) continue;
@@ -3317,8 +3317,7 @@ class UGisApp {
         if (parameters.r) {
             this._mapp.rotation = Number(parameters.r);
         }
-        if (parameters.s) {
-        }
+        
     }
     createWidgets() {
         if (this._config.widgets.select) {

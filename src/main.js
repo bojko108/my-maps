@@ -57,6 +57,10 @@ import 'quasar-extras/material-icons';
 // import 'quasar-extras/fontawesome'
 // import 'quasar-extras/animate'
 
+// import * as g from './statics/ugis.js';
+// window.UGisApp = g.UGisApp;
+
+
 Quasar.start(() => {
   /* eslint-disable no-new */
   window.wtf = new Vue({
