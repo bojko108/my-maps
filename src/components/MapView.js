@@ -7,7 +7,5 @@ export default {
         this.ugis = new UGisApp(config);
         this.ugis.createMap();
         this.ugis.createWidgets();
-
-        this.ugis.mapp.map.updateSize();
     }
 };

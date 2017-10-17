@@ -11,7 +11,6 @@ require(`quasar/dist/quasar.${__THEME}.css`)
 // require(`quasar/dist/quasar.ie.${__THEME}.css`)
 
 import Vue from 'vue';
-import router from './router';
 import VueStash from 'vue-stash';
 import Quasar, {
   dom,
@@ -62,8 +61,7 @@ Quasar.start(() => {
   /* eslint-disable no-new */
   window.wtf = new Vue({
     el: '#q-app',
-    router,
-    render: h => h(require('./App').default),
+    render: h => h(require('./App.vue').default),
     data: {
       store: {
         ugis: {}

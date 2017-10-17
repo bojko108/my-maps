@@ -3,7 +3,7 @@
   "productName": "My Maps",
   "version": "0.0.1",
   "private": true,
-  "description": "A Quasar App",
+  "description": "App for loading offline map tiles while hiking!",
   "author": "bojko108 <bojko108@gmail.com>",
   "scripts": {
     "clean": "node build/script.clean.js",
